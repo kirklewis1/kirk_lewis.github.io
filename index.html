@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+    <title>personal portfoli website Create</title>
+</head>
+<body>
+     <!-----start Hearder section----->
+     <div id="hearder">
+        <div class="contenier">
+            <nav >
+                <img src="img/logo.png" alt="logo" class="logo">
+                <ul id="sidmenu">
+                    <li><a href="#hearder">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                 </ul>
+                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+              </nav> 
+              <div class="hearder-text">
+                <p>Software engineer</p>
+                <h1>Welcome <span>to my</span> <br> Portfolio Website</h1>
+              </div>       
+            </div>
+        </div>
+     </div>
+      <!-----End Hearder section----->
+
+
+      <!-----start About section----->
+      <div id="about">
+        <div class="contenier">
+            <div class="row">
+                <div class="about-col-1">
+                  <img src="bg15.png" >  
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p>Welcome to my portfolio website. My name is Kirk Lewis. I'm a senior at CUNY-Queens college, studying Computer Science, Economics and Math - Data Science concentration. I've always had a strong attraction to all things STEM. If you're interested in my tool set or hearing more about what i can offer you're organisation, please,  don't hesitate to contact me. Thank you for taking time out of your busy schedule to be here. </p>
+                   <div class="tab-titles">
+                    <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Software development</span><br>Designing Web/ App interfces</li>
+                        <li><span>Software development</span><br> Web App development</li>
+                        <li><span>Software development</span><br>Python applications</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - Current </span><br>Design websites for friends </li>
+                        <li><span>2020 - 2022</span><br> Coded class projects</li>
+                        <li><span>App Development</span><br>Builing android/ios App</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>College/University</span><br>CUNY-Queens College</li>
+                        <li><span>Address</span><br>Flushing, New York, USA</li>
+                        <li><span>Major(s)</span><br>Computer Science, Quantitative Economics, Math - Data Science and 
+                            Statistics concentration</li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-----End About section----->
+
+
+
+
+      <!-----Service section Start----->
+     <div id="services">
+        <div class="contenier">
+            <h1 class="sub-title">My Services</h1>
+            <p></p>
+            <div class="services-list">
+                <div>
+                    <img src="img/flag.png" >
+                    <h2>Web Developer</h2>
+                    <p></p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <img src="img/pancel.png" >
+                    <h2>Data Scientist student</h2>
+                    <p></p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <img src="img/grars.png" >
+                    <h2>Python Developer</h2>
+                    <p></p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+
+        </div>
+     </div>
+      <!----services section end ----->
+
+
+        <!----portfolio section Start ----->
+
+        <div id="portfolio">
+            <div class="contenier">
+                <h1 class="sub-title">My Work</h1>
+                <p>Hover the cursor over the images to get application descriptions</p>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="img/Portfolio2.png" >
+                        <div class="layer">
+                            <h3>Music player</h3>
+                            <p>Coded a music player in python</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="work">
+                        <img src="img/Portfolio3.png" >
+                        <div class="layer">
+                            <h3>Turtle game</h3>
+                            <p>Built a clone of the popular cell phone snake game in python</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="work">
+                        <img src="img/Portfolio4.png" >
+                        <div class="layer">
+                            <h3> Arcade space game</h3>
+                            <p>Coded a space game in python</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                  
+                </div>
+                <a href="#" class="btn">Learn More</a>
+
+            </div>
+        </div>
+         <!----portfolio section End ----->
+
+
+          <!----Contact section Start ----->
+          <div id="contact">
+            <div class="contenier">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Us</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>Contact me at Kirk_lewis</p>
+                        <p><i class="fa-solid fa-square-phone-flip"></i>Email me to request my phone number</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="" class="btn btn2">Download CV</a>
+
+                    </div>
+                    <div class="contact-right">
+                        <form >
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="Email" name="Email" placeholder="Your Email" required>
+                            <textarea name="massage" rows="6" placeholder="Your Massage"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p><i class="fa-solid fa-heart"></i> </p>
+            </div>
+          </div>
+   
+          <!----Contact section End ----->
+  
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+      </script>
+
+    <script>
+        var sidmenu = document.getElementById("sidmenu");
+        function openmenu(){
+            sidmenu.style.right ="0";
+        }
+        function closemenu(){
+            sidmenu.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
